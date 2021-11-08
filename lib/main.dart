@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(),
         home: HomePage(),
         initialRoute: '/',
-        routes: {'/menu': (context) => MenuPage()});
+        routes: {'/menu': (context) => MenuPage()}  
+      );
   }
 }
